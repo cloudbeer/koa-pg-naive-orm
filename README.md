@@ -13,5 +13,27 @@ npm i koa-pg-naive-orm --save
 ## 例子
 
 
+    var accountInfo = {
+        youku_id: youkuId,
+        nick: userInfoJson.nickname,
+        email: userInfoJson.email,
+        mobile: userInfoJson.mobile,
+        password: password
+    };
+
+    var accRes = yield db.insert("account", accountInfo);
+
+
+    var result = yield db.take("account", {
+        where: "id>$id",
+        params: {id: 1},
+        page:1
+        size:20,
+        orderBy: "id desc",
+        cols: ["email", "mobile", "nick"]
+    });
+
+
 ## API
 
+....
