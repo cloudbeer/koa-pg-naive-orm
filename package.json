@@ -1,0 +1,30 @@
+{
+  "name": "koa-pg-naive-orm",
+  "version": "0.0.1",
+  "description": "simplest postgres orm without entity, support koa.",
+  "main": "lib/db.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudbeer/koa-pg-naive-orm.git"
+  },
+  "keywords": [
+    "postgres",
+    "orm",
+    "koa"
+  ],
+  "author": "Xie Zhengwei <iam@xiezhengwei.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudbeer/koa-pg-naive-orm/issues"
+  },
+  "homepage": "https://github.com/cloudbeer/koa-pg-naive-orm#readme",
+  "dependencies": {
+    "pg": "^4.4.1"
+  }
+}
