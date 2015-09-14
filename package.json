@@ -1,6 +1,6 @@
 {
   "name": "koa-pg-naive-orm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "simplest postgres orm without entity, support koa.",
   "main": "lib/db.js",
   "directories": {
